@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.image {
+  height: 900px;
+  width: 100%;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+
+.Logo {
+   color: white;
+  text-shadow: 5px 5px 10px #000000cc;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: bold;
+  font-variant: small-caps;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 30px;
+}
+
+
+.Daily {
+  color: white;
+  text-shadow: 10px 10px 15px #000000cc;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.RFOTD {
+  color: white;
+  text-shadow: 10px 10px 10px #000000cc;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: bold;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+
+
+.GeneratorText{
+  font-family: 'Roboto', sans-serif;;
+  font-size: 70px;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: black;
+  position:relative;
+  top: 100px;
+  left: 270px;
+
+}
+
+.RFGenerator{
+  color: white;
+  height: 1400px;
+  width: 1920px;
+
+}
+
+.Generator {
+  width: 1300px;
+  height: 300px;
+  border: 6px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  position:relative;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.RandomFact{
+color: black;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+#RandomButton{
+  font-family: 'Roboto', sans-serif;;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: white;
+  background-color: black;
+  border: 12px solid;
+  border-color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position:relative;
+  top: 78px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.Category{
+  display: grid;
+  width: 60%;
+  grid-template-areas:
+  'header header'
+  'Dog Cat'
+  'DogFact CatFact';
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  position:relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.CategoryItem1{
+  grid-area: header;
+  color: black;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 40px;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+  position:relative;
+  margin-bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.CategoryItem2{
+  grid-area: Dog;
+  text-align: center;
+}
+
+#DogButton{
+font-family: 'Roboto', sans-serif;;
+  font-size: 25px;
+  font-variant: small-caps;
+  color: white;
+  background-color: black;
+  border:none;
+  padding: 15px 15px;
+  text-align: Center;
+  text-decoration: none;
+  display: inline-block;
+  transform: translate(0%, -55%);
+}
+
+.CategoryItem3{
+  grid-area: Cat;
+  text-align: center;
+
+}
+
+#CatButton{
+font-family: 'Roboto', sans-serif;;
+  font-size: 25px;
+  font-variant: small-caps;
+  color: white;
+  background-color: black;
+  border:none;
+  padding: 15px 15px;
+  text-align: Center;
+  text-decoration: none;
+  display: inline-block;
+  transform: translate(0%, -55%);
+}
+
+
+.CategoryItem4{
+  grid-area: DogFact;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  padding-left: 68px;
+  padding-right: 50px;
+}
+.CategoryItem5{
+  grid-area: CatFact;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  padding-left: 68px;
+  padding-right: 50px;
+}
+
+
+
+
