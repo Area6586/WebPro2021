@@ -50,11 +50,6 @@
 
 
 
-
-
-
-
-
 <script>
 export default {
   name: 'App',
@@ -68,7 +63,7 @@ export default {
   }),
 
   methods: {
-    async loadapi() {      
+      loadapi() {      
       console.log("button clicked");
  
       }
